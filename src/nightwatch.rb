@@ -9,6 +9,7 @@ genre_list.each do |key, value|
     puts "#{i+=1} > #{key}"
 
 end
+i = 0
 
 user_input = gets.chomp
 
