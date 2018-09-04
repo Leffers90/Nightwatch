@@ -37,7 +37,7 @@ Below are some blueprints of different ideas we shared during the brainstorming 
 ![potential genre quiz](https://user-images.githubusercontent.com/39307727/45063328-bfb8d080-b0f0-11e8-8d8b-7007a98d4a95.png)
 
 ##### *This was a blueprint for an app with a very similar purpose to the live app but instead of creating a list, users could rate the movies between 1-5 stars and their rating would automatically be calculated into the average, this would also raise or lower the movie on the top 5 list depending on its average.*
-![ratingoption](https://user-images.githubusercontent.com/39307727/45063386-060e2f80-b0f1-11e8-98f0-ae1fb55221c7.png)
+![ratingoption](https://user-images.githubusercontent.com/39307727/45063423-41a8f980-b0f1-11e8-8987-d27b4b150db4.png)
 
 ## 6. Workflow diagram
 ![base](https://user-images.githubusercontent.com/39307727/45017532-285d6a00-b06b-11e8-8369-932a05679c85.png)
