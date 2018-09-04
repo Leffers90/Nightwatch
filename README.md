@@ -43,6 +43,7 @@ Below are some blueprints of different ideas we shared during the brainstorming 
 
 
 ## 6. *Insert workflow diagram*
+![Workflow diagram](Desktop/Paint/base.png)
 
 
 ## 7. Poject plan & timeline
