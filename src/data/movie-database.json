@@ -1,0 +1,142 @@
+[
+    {
+      "title": "Terminator",
+      "genre": "action",
+      "rank": 1,
+      "year": 1984,
+      "length": 108,
+      "description": "Disguised as a human, a cyborg assassin known as a Terminator, travels from 2029 to 1984 to kill Sarah Connor.",
+      "actors": [
+        "Arnold Schwarzenegger",
+        "Linda Hamilton",
+        "Michael Biehn"
+      ],
+      "director": "James Cameron"
+    },
+    {
+      "title": "John Wick",
+      "genre": "action",
+      "rank": 2,
+      "year": 2014,
+      "length": 101,
+      "description": "A retired assasin John Wick is pulled back into crime after personal tragety",
+      "actors": [
+        "Keanu Reeves",
+        "Willem Dafoe",
+        "Michael Nyqvist"
+      ],
+      "director": "Chad Stahelski, David Leitch"
+    },
+    {
+      "title": "Kingsman: The Secret Service",
+      "genre": "action",
+      "rank": 3,
+      "year": 2014,
+      "length": 129,
+      "description": "A spy organization recruits an unrefined, but promising street kid into the agency's ultra-competitive training program, just as a global threat emerges from a twisted tech genius.",
+      "actors": [
+        "Colin Firth",
+        "Taron Egerton",
+        "Samuel L. Jackson"
+      ],
+      "director": "Matthew Vaughn"
+    },
+    {
+      "title": "Die Hard",
+      "genre": "action",
+      "rank": 4,
+      "year": 1988,
+      "length": 132,
+      "description": "John McClane, officer of the NYPD, tries to save his wife and several others that were taken hostage.",
+      "actors": [
+        "Bruce Wllis",
+        "Alan Rickman",
+        "Bonnie Bedelia"
+      ],
+      "director": "John McTiernan"
+    },
+    {
+      "title": "Logan",
+      "genre": "action",
+      "rank": 5,
+      "year": 2017,
+      "length": 137,
+      "description": "In the near future, a weary Logan cares for an ailing Professor X, somewhere on the Mexican border. However, Logan's attempts to hide from the world, and his legacy, are upended when a young mutant arrives, pursued by dark forces.",
+      "actors": [
+        "Hugh Jackman",
+        "Patrick Stewart",
+        "Dafne Keen"
+      ],
+      "director": "James Mangold"
+    },
+    {
+      "title": "Shaun of the Dead",
+      "genre": "comedy",
+      "rank": 1,
+      "year": 2004,
+      "length": 100,
+      "description": "A man decides to turn his moribund life around by winning back his ex-girlfriend, reconciling his relationship with his mother, and dealing with an entire community that has returned from the dead to eat the living. ",
+      "actors": [
+        "Simon Pegg",
+        "Nick Frost",
+        "Kate Ashfield"
+      ],
+      "director": "Edgar Wright"
+    },
+    {
+      "title": "The Hangover",
+      "genre": "comedy",
+      "rank": 2,
+      "year": 2009,
+      "length": 104,
+      "description": "Bachelors party gone wrong",
+      "actors": [
+        "Bradley Cooper",
+        "Zach Galifianakis",
+        "Ed Helms"
+      ],
+      "director": "Todd Phillips"
+    },
+    {
+      "title": "Dirty Grandpa",
+      "genre": "comedy",
+      "rank": 3,
+      "year": 2016,
+      "length": 114,
+      "description": "Right before his wedding, an uptight guy is tricked into driving his grandfather, a lecherous former Army Lieutenant Colonel, to Florida for Spring Break.",
+      "actors": [
+        "Robert De Niro",
+        "Zac Efron",
+        "Zoey Deutch"
+      ],
+      "director": "Dan Mazer"
+    },
+    {
+      "title": "The 40-Year-Old Virgin",
+      "genre": "comedy",
+      "rank": 4,
+      "year": 2005,
+      "length": 133,
+      "description": "Goaded by his buddies, a nerdy guy who's never done the deed only finds the pressure mounting when he meets a single mother.",
+      "actors": [
+        "Steve Carell",
+        "Catherine Keener",
+        "Paul Rudd"
+      ],
+      "director": "Judd Apatow"
+    },
+    {
+      "title": "Superbad",
+      "genre": "comedy",
+      "rank": 5,
+      "year": 2007,
+      "length": 119,
+      "description": "Two co-dependent high school seniors are forced to deal with separation anxiety after their plan to stage a booze-soaked party goes awry. ",
+      "actors": [
+        "Michael Cera",
+        "Jonah Hill",
+        "Christopher Mintz-Plasse"
+      ],
+      "director": "Greg Mottola"
+    }
+]
