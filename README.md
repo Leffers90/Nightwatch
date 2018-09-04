@@ -42,8 +42,9 @@ Below are some blueprints of different ideas we shared during the brainstorming 
 *PICTURES*
 
 
-## 6. *Insert workflow diagram*
-![Workflow diagram](Desktop/Paint/base.png)
+## 6.
+![base](https://user-images.githubusercontent.com/39307727/45017532-285d6a00-b06b-11e8-8369-932a05679c85.png)
+
 
 
 ## 7. Poject plan & timeline
