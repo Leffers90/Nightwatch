@@ -52,7 +52,7 @@ Below are some blueprints of different ideas we shared during the brainstorming 
 ![ratingoption](docs/development_prosess/2.png)
 
 ## 6. Workflow diagram
-![base](https://user-images.githubusercontent.com/39307727/45017532-285d6a00-b06b-11e8-8369-932a05679c85.png)
+![base](docs/work_flow_diagrams/1.png)
 
 ## 7. Project plan & timeline - Trello screenshots
 From the get go we made a point of using Trello in the simplest form. We believe our scope was very achievable with room for potential addition of our other ideas under the 'Futures' list.
@@ -60,9 +60,9 @@ Nightwatch Trello has Backlog, To Do, Doing, Done, and Futures lists. These list
 Below you will see images of how we used Trello throughtout the 2 days.
 
 ##### *Image of how we setup self explanatory listings on day 1*
-![trello screenshot day 1](https://user-images.githubusercontent.com/39307727/45063195-1d98e880-b0f0-11e8-83f9-a9f1a57798fd.png)
+![trello screenshot day 1](docs/trello_screenshots/day1.png)
 
 
 ##### *Image of how we utilised Trello on day 2*
-![trello screenshot day 2](https://user-images.githubusercontent.com/39307727/45069939-5053d880-b112-11e8-8ff2-35d9af36097b.png)
+![trello screenshot day 2](docs/trello_screenshots/day2.png)
 
