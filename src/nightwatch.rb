@@ -1,13 +1,8 @@
 #Pull data from Movies Class.
 #Generate menu screen from Movie Class
 
-<<<<<<< HEAD
-require_relative "classes/movie"
-movie = Movie.new
-=======
 require_relative "classes/movie_data"
 require_relative "classes/user"
->>>>>>> de5e562881bfe5e3e45ba4ccadbd6dea4e71cea0
 
 movie_data = MovieData.new("data/movie-database.json")
 user = User.new
