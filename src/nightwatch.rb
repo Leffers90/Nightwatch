@@ -1,13 +1,23 @@
 #Pull data from Movies Class.
 #Generate menu screen from Movie Class
 
+<<<<<<< HEAD
 require_relative "classes/movie"
 movie = Movie.new
+=======
+require_relative "classes/movie_data"
+require_relative "classes/user"
+>>>>>>> de5e562881bfe5e3e45ba4ccadbd6dea4e71cea0
 
-
-user_list = []
+movie_data = MovieData.new("data/movie-database.json")
+user = User.new
 
 is_running = true
+def process_user_input(user, movie_titles)
+    puts "Select a movie, please"
+    input = gets.chomp.to_i
+    user.user_list << movie_titles[input - 1]
+end
 
 puts "Welcome to Nightwatch"
 puts "Your effortless movie list"
@@ -30,13 +40,12 @@ case user_input
         is_running = false
     when "1"
         puts "Top 5 comedy movies"
-        movie_titles(movie,"comedy")
+        process_user_input(user, movie_data.movie_titles("comedy"))        
     when "2"
         puts "Will display top 5 action movies"
-        movie_titles(movie,"action")
-        puts movie_list
+        process_user_input(user, movie_data.movie_titles("action"))        
     when "3"
-        puts "Will display users list"
+        user.print_user_list
     else
         puts "Sorry user input is not valid"
 end
