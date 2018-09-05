@@ -28,6 +28,7 @@ Nightwatch pulls movie database from local directories. Utilising arrays, hashes
 
 
 ## 3. Intructions for use - Pictures included
+When the program is loaded into the terminal, the user is presented with querky introduction and couple of genres to to choose from.
 
 ## 4. Developer brainstorming - Picture evidence
 We faced a common issue of trying to run before we could crawl, we wanted to create a game of Battleships but eventually settled for a much simpler app. One of which could realistictly fit in our skill set and the scope. We spent 2 hours brainstorming the possible hurdles of every idea we considered, many of which did not fit within the scope but were mostly able to fit within the futures of the application. 
