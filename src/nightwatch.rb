@@ -1,8 +1,8 @@
 #Pull data from Movies Class.
 #Generate menu screen from Movie Class
 
-require_relative "classes/Movies"
-movie = Movies.new
+require_relative "classes/movie"
+movie = Movie.new
 
 
 user_list = []
