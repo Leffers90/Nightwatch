@@ -1,5 +1,7 @@
-#Pull data from Movies Class.
-#Generate menu screen from Movie Class
+#This file is the program.
+
+#Pulls data from MoviesData Class.
+
 
 require_relative "classes/movie_data"
 require_relative "classes/user"
@@ -9,6 +11,7 @@ user = User.new
 is_running = true # <-- Sets aplication runtime to true. Program will loop until set to false.
 
 def process_user_input(user, movie_titles)
+    #Prosesses the users movie choise and adds it to @user_list array in User class
     puts "Please select a movie from the list that you'd like to watch"
     print "-> "
     input = gets.chomp.to_i
@@ -39,6 +42,7 @@ case user_input
     when "1"
         system ("clear")
         puts "Top 5 comedy movies"
+        #The "movie_title" method gets movie titels by genre specified.
         process_user_input(user, movie_data.movie_titles("comedy"))
 
     when "2"
