@@ -6,7 +6,7 @@ Joint effort in the development of Nightwatch by:
 - Danylo Denysov
 - Mitchell Leffers
 
-*INSERT GIT LINK HERE*
+[Direct link to Nightwatch github](https://github.com/Leffers90/Nightwatch)
 
 ## Contents
 #### 1. Purpose
