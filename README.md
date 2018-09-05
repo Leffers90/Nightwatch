@@ -31,9 +31,14 @@ Wanted to make use of numbers as main input for navigation and selection. This w
 ## 3. Intructions for use - Pictures included
 1. When the program is loaded into the terminal, the user is presented with querky introduction and couple of genres to to choose from.
 2. User can choose a movie genre by pressing number on the keyboard that corelates to the categoty.
+![First screen when app opens](docs/step_by_step_instructions/1.png)
+
 3. The app will spit out top 5 rated movies in that genre.
+![First screen when app opens](docs/step_by_step_instructions/1.png)
 4. The user can select their movie from that list and it will be added to their list!
+![First screen when app opens](docs/step_by_step_instructions/3.png)
 5. The list can be viewed by pressing number 3 on the keyboard on the main screen.
+![First screen when app opens](docs/step_by_step_instructions/4.png)
 6. The last option will quit the program.
 
 ## 4. Developer brainstorming - Picture evidence
