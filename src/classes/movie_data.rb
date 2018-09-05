@@ -11,7 +11,7 @@ class MovieData
         if filename.length == 0
             set_default_movie_data
         else
-            #read data from file     This is an array of hashes       
+            #read data from file  This is an array of hashes       
             file_data = JSON.parse(File.read(filename))
             create_movie_data_from_file(file_data)
         end
@@ -19,12 +19,15 @@ class MovieData
         
     end
     # Can implement on the later date
-    def set_default_movie_data
+    #def set_default_movie_data
+        #This method can be useful in the future if file that is passed through stoped didnt exist.
+        #It would generate dummy movie data if initialization checks failed.
         #@movie_data << Movie.new("title","genre")
-    end
+    #end
+
 
     def create_movie_data_from_file(file_data)
-        # puts "in create movie data from file with #{file_data}"
+        #this method creates movie objects and sets their initial values title and title from a JSON file.
         file_data.each do |m_data|
             @movie_data.push(Movie.new(m_data["title"],m_data["genre"]))
         end
