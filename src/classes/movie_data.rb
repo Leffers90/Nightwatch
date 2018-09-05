@@ -6,6 +6,8 @@ require_relative 'movie'
 class MovieData
     attr_accessor :top_list, :movie_data
     def initialize(filename='')
+        @top_list = {}
+        @movie_data = []
         if filename.length == 0
             set_default_movie_data
         else
@@ -14,8 +16,7 @@ class MovieData
             create_movie_data_from_file(file_data)
         end
         # top_list is a hash of genre: [movie list]
-        @top_list = {}
-        @movie_data = [Movie.new("title","genre")]
+        
     end
 
     def set_default_movie_data
@@ -23,7 +24,7 @@ class MovieData
     end
 
     def create_movie_data_from_file(file_data)
-        puts "in create movie data from file with #{file_data}"
+        # puts "in create movie data from file with #{file_data}"
         file_data.each do |m_data|
             @movie_data.push(Movie.new(m_data["title"],m_data["genre"]))
         end
