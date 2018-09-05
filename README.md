@@ -34,7 +34,7 @@ Wanted to make use of numbers as main input for navigation and selection. This w
 ![First screen when app opens](docs/step_by_step_instructions/1.png)
 
 3. The app will spit out top 5 rated movies in that genre.
-![First screen when app opens](docs/step_by_step_instructions/1.png)
+![First screen when app opens](docs/step_by_step_instructions/2.png)
 4. The user can select their movie from that list and it will be added to their list!
 ![First screen when app opens](docs/step_by_step_instructions/3.png)
 5. The list can be viewed by pressing number 3 on the keyboard on the main screen.
@@ -46,10 +46,10 @@ We faced a common issue of trying to run before we could crawl, we wanted to cre
 Below are some blueprints of different ideas we shared during the brainstorming stage:
 
 ##### *This was a blueprint for an app that recommends movies depending on your multiple choice anwser*
-![potential genre quiz](https://user-images.githubusercontent.com/39307727/45063328-bfb8d080-b0f0-11e8-8d8b-7007a98d4a95.png)
+![potential genre quiz](docs/development_prosess/1.png)
 
 ##### *This was a blueprint for an app with a very similar purpose to the live app but instead of creating a list, users could rate the movies between 1-5 stars and their rating would automatically be calculated into the average, this would also raise or lower the movie on the top 5 list depending on its average.*
-![ratingoption](https://user-images.githubusercontent.com/39307727/45063423-41a8f980-b0f1-11e8-8987-d27b4b150db4.png)
+![ratingoption](docs/development_prosess/2.png)
 
 ## 6. Workflow diagram
 ![base](https://user-images.githubusercontent.com/39307727/45017532-285d6a00-b06b-11e8-8369-932a05679c85.png)
