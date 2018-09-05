@@ -11,16 +11,16 @@ class MovieData
         if filename.length == 0
             set_default_movie_data
         else
-            #read data from file            
-            file_data = JSON.parse(File.read("data/movie-database.json"))
+            #read data from file     This is an array of hashes       
+            file_data = JSON.parse(File.read(filename))
             create_movie_data_from_file(file_data)
         end
         # top_list is a hash of genre: [movie list]
         
     end
-
+    # Can implement on the later date
     def set_default_movie_data
-        @movie_data << Movie.new("title","genre")
+        #@movie_data << Movie.new("title","genre")
     end
 
     def create_movie_data_from_file(file_data)
@@ -36,6 +36,8 @@ class MovieData
     # returns an array of Movie objects for the specified genre and stores that array in @top_list
     def set_movies_by_genre(genre, range)
         if !@top_list.key?(genre)
+            # If we don't have this genre already, add to top_list an initialize to empty array
+            @top_list[genre] = []
             for movie in @movie_data
                 if movie.genre == genre && @top_list[genre].length < range
                     @top_list[genre] << movie
@@ -48,8 +50,14 @@ class MovieData
     # calls set_movies_by_genre to make sure the list is populated
     def movie_titles(genre)
         set_movies_by_genre(genre, 5)
+        titles = []
+        i = 1
         for film in @top_list[genre]
-            puts film.title
+            puts "#{i} > #{film.title}"
+            i += 1
+            titles << film.title
         end
+
+        return titles
     end
 end
