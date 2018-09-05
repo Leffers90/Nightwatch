@@ -25,9 +25,16 @@ If you find yourself spending more time selecting a movie than actually watching
 
 ## 2. Functionality
 Nightwatch pulls movie database from local directories. Utilising arrays, hashes, and classes movie database is presented within the app with relation to the users request.
+Wanted to make use of numbers as main input for navigation and selection. This would greatly inprove peoples experiance who have difficulty with spelling. Incidently it improves ease of use of the app. Everyone is happy :).
 
 
 ## 3. Intructions for use - Pictures included
+1. When the program is loaded into the terminal, the user is presented with querky introduction and couple of genres to to choose from.
+2. User can choose a movie genre by pressing number on the keyboard that corelates to the categoty.
+3. The app will spit out top 5 rated movies in that genre.
+4. The user can select their movie from that list and it will be added to their list!
+5. The list can be viewed by pressing number 3 on the keyboard on the main screen.
+6. The last option will quit the program.
 
 ## 4. Developer brainstorming - Picture evidence
 We faced a common issue of trying to run before we could crawl, we wanted to create a game of Battleships but eventually settled for a much simpler app. One of which could realistictly fit in our skill set and the scope. We spent 2 hours brainstorming the possible hurdles of every idea we considered, many of which did not fit within the scope but were mostly able to fit within the futures of the application. 
@@ -42,7 +49,7 @@ Below are some blueprints of different ideas we shared during the brainstorming 
 ## 6. Workflow diagram
 ![base](https://user-images.githubusercontent.com/39307727/45017532-285d6a00-b06b-11e8-8369-932a05679c85.png)
 
-## 7. Poject plan & timeline - Trello screenshots
+## 7. Project plan & timeline - Trello screenshots
 From the get go we made a point of using Trello in the simplest form. We believe our scope was very achievable with room for potential addition of our other ideas under the 'Futures' list.
 Nightwatch Trello has Backlog, To Do, Doing, Done, and Futures lists. These lists are self explanatory and in this case, a picture speaks a thousand words.
 Below you will see images of how we used Trello throughtout the 2 days.
