@@ -1,7 +1,7 @@
 #Pull data from Movies Class.
 #Generate menu screen from Movie Class
 
-require "classes/Movies"
+require_relative "classes/Movies"
 
 genre_list = {Comedy: "comedy", Action: "action", Quit: false} # strings will be objects on later date.. 
 user_list = []

@@ -17,9 +17,3 @@ class Movies
   end
 
 end
-
-
-
-obj = Movies.new
-obj.get_movies_by_genre("action",2)
-puts obj.top5_list
