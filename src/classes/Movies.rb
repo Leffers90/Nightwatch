@@ -6,7 +6,7 @@ class Movies
     attr_accessor :top5_list
   def initialize
     @top5_list = []
-    @movie_data = JSON.parse(File.read("../data/movie-database.json"))
+    @movie_data = JSON.parse(File.read("data/movie-database.json"))
   end
 
   def get_movies_by_genre(genre, range)

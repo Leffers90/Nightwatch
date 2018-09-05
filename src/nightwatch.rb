@@ -2,6 +2,7 @@
 #Generate menu screen from Movie Class
 
 require_relative "classes/Movies"
+Movie_obj = Movies.new
 
 genre_list = {Comedy: "comedy", Action: "action", Quit: false} # strings will be objects on later date.. 
 user_list = []
@@ -12,6 +13,7 @@ is_running = true
 puts "Welcome to Nightwatch"
 puts "Your effortless movie list"
 puts "Please enter a number for your genre"
+puts Movie_obj
 
 i = 0
 # This is the main menu with a loop, 
