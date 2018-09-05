@@ -52,5 +52,5 @@ Below you will see images of how we used Trello throughtout the 2 days.
 
 
 ##### *Image of how we utilised Trello on day 2*
-*INSERT IMAGE*
+![trello screenshot day 2](https://user-images.githubusercontent.com/39307727/45069939-5053d880-b112-11e8-8ff2-35d9af36097b.png)
 
