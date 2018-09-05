@@ -6,10 +6,15 @@ class User
         @user_list = [] # this array will store selected movies they have picked.
     end
     def print_user_list
-        puts "Here are your selected movies"
+        puts "Please write down the slected movies onto piece of paper."
+        puts "Ability so save list will be implemented in near future."
+        puts "Please stand by :) \n\n"
+
+        puts "Here are your selected movies:"
         for film in @user_list
-            puts "  #{film}"
+            puts " - #{film}"
         end
+        puts ""
     end
     
 end
