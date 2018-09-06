@@ -1,6 +1,17 @@
 # Nightwatch
 Term1-assignment
 
+##Before running the app..
+You might have to install 2 gems if not already installed:
+###test-unit
+This is a test library to run automated test
+gem install test-unit
+
+###JSON
+This gem allows for JSON data to be used in the app.
+Although newer versions of ruby include this gem by default.git
+gem install json 
+
 ## Developers
 Joint effort in the development of Nightwatch by:
 - Danylo Denysov
